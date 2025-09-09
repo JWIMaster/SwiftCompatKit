@@ -20,6 +20,7 @@
 		5F4DF9282E70EE1D0098917B /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF9192E70EE1D0098917B /* UIButton.swift */; };
 		5F4DF9292E70EE1D0098917B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF91A2E70EE1D0098917B /* UIView.swift */; };
 		5F4DF92A2E70EE1D0098917B /* withAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF91C2E70EE1D0098917B /* withAnimation.swift */; };
+		5FFC43DE2E70F4D600F1AB62 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFC43DD2E70F4D600F1AB62 /* UIFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		5F4DF9192E70EE1D0098917B /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		5F4DF91A2E70EE1D0098917B /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		5F4DF91C2E70EE1D0098917B /* withAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = withAnimation.swift; sourceTree = "<group>"; };
+		5FFC43DD2E70F4D600F1AB62 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				5F4DF9122E70EE1D0098917B /* UIModalTransition.swift */,
 				5F4DF9132E70EE1D0098917B /* UIScreen.swift */,
 				5F4DF9142E70EE1D0098917B /* UIViewAutoResizing.swift */,
+				5FFC43DD2E70F4D600F1AB62 /* UIFont.swift */,
 			);
 			path = "Swift 3";
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				5F4DF9212E70EE1D0098917B /* UIColor.swift in Sources */,
 				5F4DF92A2E70EE1D0098917B /* withAnimation.swift in Sources */,
 				5F4DF91E2E70EE1D0098917B /* DispatchQueue.swift in Sources */,
+				5FFC43DE2E70F4D600F1AB62 /* UIFont.swift in Sources */,
 				5F4DF9282E70EE1D0098917B /* UIButton.swift in Sources */,
 				5F4DF9242E70EE1D0098917B /* UIScreen.swift in Sources */,
 				5F4DF91F2E70EE1D0098917B /* NSLayoutAttributes.swift in Sources */,
