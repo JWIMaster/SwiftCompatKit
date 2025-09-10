@@ -16,29 +16,31 @@ import UIKit
 extension UIFont {
     
     // System Fonts
-    class func systemFont(ofSize fontSize: CGFloat) -> UIFont {
+    @nonobjc class func systemFont(ofSize fontSize: CGFloat) -> UIFont {
         return UIFont.systemFontOfSize(fontSize)
     }
     
-    class func boldSystemFont(ofSize fontSize: CGFloat) -> UIFont {
+    @nonobjc class func boldSystemFont(ofSize fontSize: CGFloat) -> UIFont {
         return UIFont.boldSystemFontOfSize(fontSize)
     }
     
-    class func italicSystemFont(ofSize fontSize: CGFloat) -> UIFont {
+    @nonobjc class func italicSystemFont(ofSize fontSize: CGFloat) -> UIFont {
         return UIFont.italicSystemFontOfSize(fontSize)
     }
     
-    class func systemFont(ofSize fontSize: CGFloat, weight: CGFloat) -> UIFont {
+    @available(iOS 8.2, *)
+    @nonobjc class func systemFont(ofSize fontSize: CGFloat, weight: CGFloat) -> UIFont {
         return UIFont.systemFontOfSize(fontSize, weight: weight)
     }
     
+    
     // Preferred Fonts
-    class func preferredFont(forTextStyle style: String) -> UIFont {
+    @nonobjc class func preferredFont(forTextStyle style: String) -> UIFont {
         return UIFont.preferredFontForTextStyle(style)
     }
     
     // Font Names
-    class func fontNames(forFamilyName familyName: String) -> [String] {
+    @nonobjc class func fontNames(forFamilyName familyName: String) -> [String] {
         return UIFont.fontNamesForFamilyName(familyName)
     }
 }
@@ -51,9 +53,14 @@ struct UIFontTextStyle {
     static let footnote = UIFontTextStyleFootnote
     static let caption1 = UIFontTextStyleCaption1
     static let caption2 = UIFontTextStyleCaption2
+    
+    @available(iOS 9.0, *)
     static let callout = UIFontTextStyleCallout
+    @available(iOS 9.0, *)
     static let title1 = UIFontTextStyleTitle1
+    @available(iOS 9.0, *)
     static let title2 = UIFontTextStyleTitle2
+    @available(iOS 9.0, *)
     static let title3 = UIFontTextStyleTitle3
 }
 
