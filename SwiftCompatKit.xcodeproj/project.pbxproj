@@ -19,7 +19,6 @@
 		5F4DF9272E70EE1D0098917B /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF9172E70EE1D0098917B /* CGFloat.swift */; };
 		5F4DF9282E70EE1D0098917B /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF9192E70EE1D0098917B /* UIButton.swift */; };
 		5F4DF9292E70EE1D0098917B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF91A2E70EE1D0098917B /* UIView.swift */; };
-		5F4DF92A2E70EE1D0098917B /* withAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF91C2E70EE1D0098917B /* withAnimation.swift */; };
 		5FFC43DE2E70F4D600F1AB62 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFC43DD2E70F4D600F1AB62 /* UIFont.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 		5F4DF9172E70EE1D0098917B /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
 		5F4DF9192E70EE1D0098917B /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		5F4DF91A2E70EE1D0098917B /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
-		5F4DF91C2E70EE1D0098917B /* withAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = withAnimation.swift; sourceTree = "<group>"; };
 		5FFC43DD2E70F4D600F1AB62 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,8 +82,6 @@
 				5F4DF90C2E70EE1D0098917B /* Swift 3 */,
 				5F4DF9152E70EE1D0098917B /* Swift 4 */,
 				5F4DF9182E70EE1D0098917B /* Swift 5 */,
-				5F4DF91B2E70EE1D0098917B /* SwiftUIFunctions */,
-				5F4DF91D2E70EE1D0098917B /* UIKit */,
 			);
 			path = SwiftCompatKit;
 			sourceTree = "<group>";
@@ -122,21 +118,6 @@
 				5F4DF91A2E70EE1D0098917B /* UIView.swift */,
 			);
 			path = "Swift 5";
-			sourceTree = "<group>";
-		};
-		5F4DF91B2E70EE1D0098917B /* SwiftUIFunctions */ = {
-			isa = PBXGroup;
-			children = (
-				5F4DF91C2E70EE1D0098917B /* withAnimation.swift */,
-			);
-			path = SwiftUIFunctions;
-			sourceTree = "<group>";
-		};
-		5F4DF91D2E70EE1D0098917B /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +205,6 @@
 				5F4DF9222E70EE1D0098917B /* UIControlState.swift in Sources */,
 				5F4DF9202E70EE1D0098917B /* Timer.swift in Sources */,
 				5F4DF9212E70EE1D0098917B /* UIColor.swift in Sources */,
-				5F4DF92A2E70EE1D0098917B /* withAnimation.swift in Sources */,
 				5F4DF91E2E70EE1D0098917B /* DispatchQueue.swift in Sources */,
 				5FFC43DE2E70F4D600F1AB62 /* UIFont.swift in Sources */,
 				5F4DF9282E70EE1D0098917B /* UIButton.swift in Sources */,
