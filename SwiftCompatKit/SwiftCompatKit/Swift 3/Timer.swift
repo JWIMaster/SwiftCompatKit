@@ -26,7 +26,7 @@ class ClosureTimer: NSObject {
 extension NSTimer {
     
     // Swift 3-style API
-    class func scheduledTimer(withTimeInterval interval: NSTimeInterval, repeats: Bool, block: (NSTimer) -> Void) -> NSTimer {
+    @nonobjc class func scheduledTimer(withTimeInterval interval: NSTimeInterval, repeats: Bool, block: (NSTimer) -> Void) -> NSTimer {
         let closureTimer = ClosureTimer(block: block)
         return NSTimer.scheduledTimerWithTimeInterval(interval,
                                                       target: closureTimer,
