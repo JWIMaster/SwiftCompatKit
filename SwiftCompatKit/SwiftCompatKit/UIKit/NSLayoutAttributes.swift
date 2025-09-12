@@ -8,7 +8,6 @@
 
 import UIKit
 
-// Extend NSLayoutAttribute to support Swift 3 style names
 extension NSLayoutAttribute {
     static let centerX = NSLayoutAttribute.CenterX
     static let centerY = NSLayoutAttribute.CenterY
@@ -30,7 +29,6 @@ extension NSLayoutAttribute {
     static let notAnAttribute = NSLayoutAttribute.NotAnAttribute
 }
 
-// Extend NSLayoutRelation to support Swift 3 style names
 extension NSLayoutRelation {
     static let equal = NSLayoutRelation.Equal
     static let lessThanOrEqual = NSLayoutRelation.LessThanOrEqual
