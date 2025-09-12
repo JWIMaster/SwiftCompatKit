@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F4DF91E2E70EE1D0098917B /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF90D2E70EE1D0098917B /* DispatchQueue.swift */; };
-		5F4DF91F2E70EE1D0098917B /* NSLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF90E2E70EE1D0098917B /* NSLayoutAttributes.swift */; };
-		5F4DF9202E70EE1D0098917B /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF90F2E70EE1D0098917B /* Timer.swift */; };
-		5F4DF9212E70EE1D0098917B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF9102E70EE1D0098917B /* UIColor.swift */; };
-		5F4DF9222E70EE1D0098917B /* UIControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF9112E70EE1D0098917B /* UIControlState.swift */; };
-		5F4DF9232E70EE1D0098917B /* UIModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF9122E70EE1D0098917B /* UIModalTransition.swift */; };
-		5F4DF9242E70EE1D0098917B /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF9132E70EE1D0098917B /* UIScreen.swift */; };
-		5F4DF9252E70EE1D0098917B /* UIViewAutoResizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF9142E70EE1D0098917B /* UIViewAutoResizing.swift */; };
-		5F4DF9262E70EE1D0098917B /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF9162E70EE1D0098917B /* Array.swift */; };
-		5F4DF9272E70EE1D0098917B /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF9172E70EE1D0098917B /* CGFloat.swift */; };
-		5F4DF9282E70EE1D0098917B /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF9192E70EE1D0098917B /* UIButton.swift */; };
-		5F4DF9292E70EE1D0098917B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF91A2E70EE1D0098917B /* UIView.swift */; };
-		5FFC43DE2E70F4D600F1AB62 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFC43DD2E70F4D600F1AB62 /* UIFont.swift */; };
+		5FEAC6902E73FED300B6A796 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC67F2E73FED300B6A796 /* CGFloat.swift */; };
+		5FEAC6912E73FED300B6A796 /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC6812E73FED300B6A796 /* DispatchQueue.swift */; };
+		5FEAC6922E73FED300B6A796 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC6832E73FED300B6A796 /* Array.swift */; };
+		5FEAC6932E73FED300B6A796 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC6842E73FED300B6A796 /* Timer.swift */; };
+		5FEAC6942E73FED300B6A796 /* NSLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC6872E73FED300B6A796 /* NSLayoutAttributes.swift */; };
+		5FEAC6952E73FED300B6A796 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC6882E73FED300B6A796 /* UIButton.swift */; };
+		5FEAC6962E73FED300B6A796 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC6892E73FED300B6A796 /* UIColor.swift */; };
+		5FEAC6972E73FED300B6A796 /* UIControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC68A2E73FED300B6A796 /* UIControlState.swift */; };
+		5FEAC6982E73FED300B6A796 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC68B2E73FED300B6A796 /* UIFont.swift */; };
+		5FEAC6992E73FED300B6A796 /* UIModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC68C2E73FED300B6A796 /* UIModalTransition.swift */; };
+		5FEAC69A2E73FED300B6A796 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC68D2E73FED300B6A796 /* UIScreen.swift */; };
+		5FEAC69B2E73FED300B6A796 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC68E2E73FED300B6A796 /* UIView.swift */; };
+		5FEAC69C2E73FED300B6A796 /* UIViewAutoResizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC68F2E73FED300B6A796 /* UIViewAutoResizing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F3F793C2E67A67F00060F0D /* SwiftCompatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCompatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3F79412E67A67F00060F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F4DF90D2E70EE1D0098917B /* DispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueue.swift; sourceTree = "<group>"; };
-		5F4DF90E2E70EE1D0098917B /* NSLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutAttributes.swift; sourceTree = "<group>"; };
-		5F4DF90F2E70EE1D0098917B /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
-		5F4DF9102E70EE1D0098917B /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		5F4DF9112E70EE1D0098917B /* UIControlState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControlState.swift; sourceTree = "<group>"; };
-		5F4DF9122E70EE1D0098917B /* UIModalTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIModalTransition.swift; sourceTree = "<group>"; };
-		5F4DF9132E70EE1D0098917B /* UIScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
-		5F4DF9142E70EE1D0098917B /* UIViewAutoResizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAutoResizing.swift; sourceTree = "<group>"; };
-		5F4DF9162E70EE1D0098917B /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
-		5F4DF9172E70EE1D0098917B /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
-		5F4DF9192E70EE1D0098917B /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
-		5F4DF91A2E70EE1D0098917B /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
-		5FFC43DD2E70F4D600F1AB62 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		5FEAC67F2E73FED300B6A796 /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		5FEAC6812E73FED300B6A796 /* DispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueue.swift; sourceTree = "<group>"; };
+		5FEAC6832E73FED300B6A796 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		5FEAC6842E73FED300B6A796 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		5FEAC6872E73FED300B6A796 /* NSLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutAttributes.swift; sourceTree = "<group>"; };
+		5FEAC6882E73FED300B6A796 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		5FEAC6892E73FED300B6A796 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		5FEAC68A2E73FED300B6A796 /* UIControlState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControlState.swift; sourceTree = "<group>"; };
+		5FEAC68B2E73FED300B6A796 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		5FEAC68C2E73FED300B6A796 /* UIModalTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIModalTransition.swift; sourceTree = "<group>"; };
+		5FEAC68D2E73FED300B6A796 /* UIScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		5FEAC68E2E73FED300B6A796 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		5FEAC68F2E73FED300B6A796 /* UIViewAutoResizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAutoResizing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,54 +70,78 @@
 		5F3F793E2E67A67F00060F0D /* SwiftCompatKit */ = {
 			isa = PBXGroup;
 			children = (
-				5F4DF90B2E70EE1D0098917B /* SwiftCompatKit */,
+				5FEAC67C2E73FED300B6A796 /* SwiftCompatKit */,
 				5F3F79412E67A67F00060F0D /* Info.plist */,
 			);
 			path = SwiftCompatKit;
 			sourceTree = "<group>";
 		};
-		5F4DF90B2E70EE1D0098917B /* SwiftCompatKit */ = {
+		5FEAC67C2E73FED300B6A796 /* SwiftCompatKit */ = {
 			isa = PBXGroup;
 			children = (
-				5F4DF90C2E70EE1D0098917B /* Swift 3 */,
-				5F4DF9152E70EE1D0098917B /* Swift 4 */,
-				5F4DF9182E70EE1D0098917B /* Swift 5 */,
+				5FEAC67D2E73FED300B6A796 /* CoreAnimation */,
+				5FEAC67E2E73FED300B6A796 /* CoreGraphics */,
+				5FEAC6802E73FED300B6A796 /* Dispatch */,
+				5FEAC6822E73FED300B6A796 /* Foundation */,
+				5FEAC6852E73FED300B6A796 /* NSNotification */,
+				5FEAC6862E73FED300B6A796 /* UIKit */,
 			);
 			path = SwiftCompatKit;
 			sourceTree = "<group>";
 		};
-		5F4DF90C2E70EE1D0098917B /* Swift 3 */ = {
+		5FEAC67D2E73FED300B6A796 /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				5F4DF90D2E70EE1D0098917B /* DispatchQueue.swift */,
-				5F4DF90E2E70EE1D0098917B /* NSLayoutAttributes.swift */,
-				5F4DF90F2E70EE1D0098917B /* Timer.swift */,
-				5F4DF9102E70EE1D0098917B /* UIColor.swift */,
-				5F4DF9112E70EE1D0098917B /* UIControlState.swift */,
-				5F4DF9122E70EE1D0098917B /* UIModalTransition.swift */,
-				5F4DF9132E70EE1D0098917B /* UIScreen.swift */,
-				5F4DF9142E70EE1D0098917B /* UIViewAutoResizing.swift */,
-				5FFC43DD2E70F4D600F1AB62 /* UIFont.swift */,
 			);
-			path = "Swift 3";
+			path = CoreAnimation;
 			sourceTree = "<group>";
 		};
-		5F4DF9152E70EE1D0098917B /* Swift 4 */ = {
+		5FEAC67E2E73FED300B6A796 /* CoreGraphics */ = {
 			isa = PBXGroup;
 			children = (
-				5F4DF9162E70EE1D0098917B /* Array.swift */,
-				5F4DF9172E70EE1D0098917B /* CGFloat.swift */,
+				5FEAC67F2E73FED300B6A796 /* CGFloat.swift */,
 			);
-			path = "Swift 4";
+			path = CoreGraphics;
 			sourceTree = "<group>";
 		};
-		5F4DF9182E70EE1D0098917B /* Swift 5 */ = {
+		5FEAC6802E73FED300B6A796 /* Dispatch */ = {
 			isa = PBXGroup;
 			children = (
-				5F4DF9192E70EE1D0098917B /* UIButton.swift */,
-				5F4DF91A2E70EE1D0098917B /* UIView.swift */,
+				5FEAC6812E73FED300B6A796 /* DispatchQueue.swift */,
 			);
-			path = "Swift 5";
+			path = Dispatch;
+			sourceTree = "<group>";
+		};
+		5FEAC6822E73FED300B6A796 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				5FEAC6832E73FED300B6A796 /* Array.swift */,
+				5FEAC6842E73FED300B6A796 /* Timer.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		5FEAC6852E73FED300B6A796 /* NSNotification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSNotification;
+			sourceTree = "<group>";
+		};
+		5FEAC6862E73FED300B6A796 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5FEAC6872E73FED300B6A796 /* NSLayoutAttributes.swift */,
+				5FEAC6882E73FED300B6A796 /* UIButton.swift */,
+				5FEAC6892E73FED300B6A796 /* UIColor.swift */,
+				5FEAC68A2E73FED300B6A796 /* UIControlState.swift */,
+				5FEAC68B2E73FED300B6A796 /* UIFont.swift */,
+				5FEAC68C2E73FED300B6A796 /* UIModalTransition.swift */,
+				5FEAC68D2E73FED300B6A796 /* UIScreen.swift */,
+				5FEAC68E2E73FED300B6A796 /* UIView.swift */,
+				5FEAC68F2E73FED300B6A796 /* UIViewAutoResizing.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,19 +221,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4DF9272E70EE1D0098917B /* CGFloat.swift in Sources */,
-				5F4DF9262E70EE1D0098917B /* Array.swift in Sources */,
-				5F4DF9252E70EE1D0098917B /* UIViewAutoResizing.swift in Sources */,
-				5F4DF9232E70EE1D0098917B /* UIModalTransition.swift in Sources */,
-				5F4DF9292E70EE1D0098917B /* UIView.swift in Sources */,
-				5F4DF9222E70EE1D0098917B /* UIControlState.swift in Sources */,
-				5F4DF9202E70EE1D0098917B /* Timer.swift in Sources */,
-				5F4DF9212E70EE1D0098917B /* UIColor.swift in Sources */,
-				5F4DF91E2E70EE1D0098917B /* DispatchQueue.swift in Sources */,
-				5FFC43DE2E70F4D600F1AB62 /* UIFont.swift in Sources */,
-				5F4DF9282E70EE1D0098917B /* UIButton.swift in Sources */,
-				5F4DF9242E70EE1D0098917B /* UIScreen.swift in Sources */,
-				5F4DF91F2E70EE1D0098917B /* NSLayoutAttributes.swift in Sources */,
+				5FEAC6992E73FED300B6A796 /* UIModalTransition.swift in Sources */,
+				5FEAC6922E73FED300B6A796 /* Array.swift in Sources */,
+				5FEAC6962E73FED300B6A796 /* UIColor.swift in Sources */,
+				5FEAC6902E73FED300B6A796 /* CGFloat.swift in Sources */,
+				5FEAC69B2E73FED300B6A796 /* UIView.swift in Sources */,
+				5FEAC6912E73FED300B6A796 /* DispatchQueue.swift in Sources */,
+				5FEAC6932E73FED300B6A796 /* Timer.swift in Sources */,
+				5FEAC69A2E73FED300B6A796 /* UIScreen.swift in Sources */,
+				5FEAC6942E73FED300B6A796 /* NSLayoutAttributes.swift in Sources */,
+				5FEAC6952E73FED300B6A796 /* UIButton.swift in Sources */,
+				5FEAC69C2E73FED300B6A796 /* UIViewAutoResizing.swift in Sources */,
+				5FEAC6972E73FED300B6A796 /* UIControlState.swift in Sources */,
+				5FEAC6982E73FED300B6A796 /* UIFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
