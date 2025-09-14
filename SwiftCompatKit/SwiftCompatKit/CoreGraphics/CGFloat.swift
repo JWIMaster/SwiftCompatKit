@@ -1,3 +1,4 @@
+#if !swift(>=3.0)
 //
 //  CGFloat.swift
 //  Colour Snap Legacy
@@ -42,3 +43,5 @@ extension CGFloat {
     }
 }
 
+
+#endif

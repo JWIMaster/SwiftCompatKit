@@ -1,3 +1,4 @@
+#if !swift(>=3.0)
 //
 //  NSLayoutAttributes.swift
 //  Colour Snap Legacy
@@ -35,3 +36,5 @@ extension NSLayoutRelation {
     static let greaterThanOrEqual = NSLayoutRelation.GreaterThanOrEqual
 }
 
+
+#endif

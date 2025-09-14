@@ -1,3 +1,4 @@
+#if !swift(>=3.0)
 //
 //  UIScreen.swift
 //  Colour Snap Legacy
@@ -14,3 +15,5 @@ extension UIScreen {
         return UIScreen.mainScreen()
     }
 }
+
+#endif

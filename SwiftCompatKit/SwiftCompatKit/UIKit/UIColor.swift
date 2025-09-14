@@ -1,3 +1,4 @@
+#if !swift(>=3.0)
 //
 //  UIColor.swift
 //  Colour Snap Legacy
@@ -28,3 +29,4 @@ extension UIColor {
         self.init(red: red, green: green, blue: blue, alpha: 1.0)
     }
 }
+#endif

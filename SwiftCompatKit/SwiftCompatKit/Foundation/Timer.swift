@@ -1,3 +1,4 @@
+#if !swift(>=3.0)
 //
 //  Extensions.swift
 //  Learning UIKit
@@ -43,3 +44,5 @@ typealias Timer = NSTimer
 
 
 
+
+#endif

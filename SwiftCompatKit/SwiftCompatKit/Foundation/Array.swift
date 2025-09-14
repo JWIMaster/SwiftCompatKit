@@ -1,3 +1,4 @@
+#if !swift(>=3.0)
 //
 //  Array.swift
 //  Colour Snap Legacy
@@ -16,3 +17,4 @@ extension Array {
         return self[index]
     }
 }
+#endif

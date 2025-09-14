@@ -1,3 +1,4 @@
+#if !swift(>=3.0)
 //
 //  UIModalTransition.swift
 //  Colour Snap Legacy
@@ -15,3 +16,5 @@ extension UIModalTransitionStyle {
     static var crossDissolve: UIModalTransitionStyle { return .CrossDissolve }
     static var partialCurl: UIModalTransitionStyle { return .PartialCurl }
 }
+
+#endif

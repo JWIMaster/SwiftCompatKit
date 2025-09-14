@@ -1,3 +1,4 @@
+#if !swift(>=3.0)
 //
 //  UIFont.swift
 //  SwiftCompatKit
@@ -64,3 +65,5 @@ struct UIFontTextStyle {
     static let title3 = UIFontTextStyleTitle3
 }
 
+
+#endif

@@ -1,3 +1,4 @@
+#if !swift(>=3.0)
 //
 //  UIButton.swift
 //  Colour Snap Legacy
@@ -41,3 +42,4 @@ extension UIButtonType {
     static var infoDark: UIButtonType { return .InfoDark }
     static var contactAdd: UIButtonType { return .ContactAdd }
 }
+#endif

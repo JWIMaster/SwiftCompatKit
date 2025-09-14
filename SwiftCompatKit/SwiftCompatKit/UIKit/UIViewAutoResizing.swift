@@ -1,3 +1,4 @@
+#if !swift(>=3.0)
 //
 //  UIViewAutoResizing.swift
 //  Colour Snap Legacy
@@ -18,3 +19,5 @@ extension UIViewAutoresizing {
         return .FlexibleHeight
     }
 }
+
+#endif

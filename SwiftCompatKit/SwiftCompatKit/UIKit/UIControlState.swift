@@ -1,3 +1,4 @@
+#if !swift(>=3.0)
 //
 //  UIControlState.swift
 //  Colour Snap Legacy
@@ -24,3 +25,4 @@ extension UIButton {
         self.setTitle(title, forState: state)
     }
 }
+#endif

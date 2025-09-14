@@ -1,3 +1,4 @@
+#if !swift(>=3.0)
 //
 //  UIView.swift
 //  Colour Snap Legacy 2
@@ -23,3 +24,5 @@ extension UIView {
                                   completion: completion)
     }
 }
+
+#endif

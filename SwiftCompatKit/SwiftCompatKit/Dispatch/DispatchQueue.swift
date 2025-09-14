@@ -1,3 +1,4 @@
+#if !swift(>=3.0)
 
 import Foundation
 
@@ -46,3 +47,5 @@ struct DispatchQueue {
 }
 
 
+
+#endif
