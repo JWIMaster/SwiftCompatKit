@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F102A762E78D05E006CC38F /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F102A752E78D05E006CC38F /* CGRect.swift */; };
+		5F102A782E78D0D5006CC38F /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F102A772E78D0D5006CC38F /* Testing.swift */; };
 		5FEAC6902E73FED300B6A796 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC67F2E73FED300B6A796 /* CGFloat.swift */; };
 		5FEAC6912E73FED300B6A796 /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC6812E73FED300B6A796 /* DispatchQueue.swift */; };
 		5FEAC6922E73FED300B6A796 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAC6832E73FED300B6A796 /* Array.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F102A752E78D05E006CC38F /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		5F102A772E78D0D5006CC38F /* Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
 		5F3F793C2E67A67F00060F0D /* SwiftCompatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCompatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3F79412E67A67F00060F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FEAC67F2E73FED300B6A796 /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
@@ -72,6 +76,7 @@
 			children = (
 				5FEAC67C2E73FED300B6A796 /* SwiftCompatKit */,
 				5F3F79412E67A67F00060F0D /* Info.plist */,
+				5F102A772E78D0D5006CC38F /* Testing.swift */,
 			);
 			path = SwiftCompatKit;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				5FEAC67F2E73FED300B6A796 /* CGFloat.swift */,
+				5F102A752E78D05E006CC38F /* CGRect.swift */,
 			);
 			path = CoreGraphics;
 			sourceTree = "<group>";
@@ -233,7 +239,9 @@
 				5FEAC6952E73FED300B6A796 /* UIButton.swift in Sources */,
 				5FEAC69C2E73FED300B6A796 /* UIViewAutoResizing.swift in Sources */,
 				5FEAC6972E73FED300B6A796 /* UIControlState.swift in Sources */,
+				5F102A782E78D0D5006CC38F /* Testing.swift in Sources */,
 				5FEAC6982E73FED300B6A796 /* UIFont.swift in Sources */,
+				5F102A762E78D05E006CC38F /* CGRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

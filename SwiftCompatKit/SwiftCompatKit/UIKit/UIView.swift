@@ -23,6 +23,11 @@ extension UIView {
                                   animations: animations,
                                   completion: completion)
     }
+    
+    class func animate(withDuration duration: NSTimeInterval, delay: NSTimeInterval = 0, options: UIViewAnimationOptions = [], completion: ((Bool) -> Void)? = nil, animations: () -> Void) {
+        
+        UIView.animateWithDuration(duration, delay: delay, options: options, animations: animations, completion: completion)
+    }
 }
 
 #endif
