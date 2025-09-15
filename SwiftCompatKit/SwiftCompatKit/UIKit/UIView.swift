@@ -14,8 +14,8 @@ extension UIView {
     class func transition(with view: UIView,
                                duration: NSTimeInterval,
                                options: UIViewAnimationOptions = [],
-                               completion: ((Bool) -> Void)? = nil,
-                               animations: () -> Void) {
+                               animations: (() -> Void)?,
+                               completion: ((Bool) -> Void)? = nil) {
         
         UIView.transitionWithView(view,
                                   duration: duration,
@@ -24,9 +24,17 @@ extension UIView {
                                   completion: completion)
     }
     
-    class func animate(withDuration duration: NSTimeInterval, delay: NSTimeInterval = 0, options: UIViewAnimationOptions = [], completion: ((Bool) -> Void)? = nil, animations: () -> Void) {
+    class func animate(withDuration duration: NSTimeInterval,
+                                    delay: NSTimeInterval = 0,
+                                    options: UIViewAnimationOptions = [],
+                                    completion: ((Bool) -> Void)? = nil,
+                                    animations: () -> Void) {
         
-        UIView.animateWithDuration(duration, delay: delay, options: options, animations: animations, completion: completion)
+        UIView.animateWithDuration(duration,
+                                   delay: delay,
+                                   options: options,
+                                   animations: animations,
+                                   completion: completion)
     }
 }
 
